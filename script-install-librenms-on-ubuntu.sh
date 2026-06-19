@@ -8,10 +8,10 @@ echo "Starting LibreNMS installation..."
 echo "#################################"
 echo
 
-read -sp "Enter MySQL database password for librenmsusr user: " DATABASEPASSWORD
+read -sp "Enter MySQL database password for librenmsusr user   : " DATABASEPASSWORD
 echo
 
-read -p "Enter web server hostname: Put IP of this server if no DNS " WEBSERVERHOSTNAME
+read -p "Enter web server hostname / Put IP if no valid DNS   :" WEBSERVERHOSTNAME
 
 echo
 echo "############################"
